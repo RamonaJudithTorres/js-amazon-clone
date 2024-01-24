@@ -656,5 +656,201 @@ export const products = [
       "apparel",
       "mens"
     ]
+  },
+  {
+    "id": "1a2b3c4d-5e6f-7g8h-9i10-j11k12l13m14",
+    "image": "https://m.media-amazon.com/images/I/71-AED-AWSL._AC_SX679_.jpg",
+    "name": "Genuine Leather Laptop Bag - Brown",
+    "rating": {
+      "stars": 4.5,
+      "count": 112
+    },
+    "priceCents": 5899,
+    "keywords": [
+      "bags",
+      "laptop bags",
+      "accessories"
+    ]
+  },
+  {
+    "id": "15b16c17-d18e-19f0-20g2-h21i22j23k24",
+    "image": "https://m.media-amazon.com/images/I/61gKU44NtuL._AC_SL1001_.jpg",
+    "name": "Portable Bluetooth Speaker - Black",
+    "rating": {
+      "stars": 4,
+      "count": 231
+    },
+    "priceCents": 3499,
+    "keywords": [
+      "electronics",
+      "speakers",
+      "audio"
+    ]
+  },
+  {
+    "id": "25a26b27-c28d29e30-f31g32h33i34j35k36",
+    "image": "https://m.media-amazon.com/images/I/41sFh+coxuL._AC_SL1000_.jpg",
+    "name": "Wireless Optical Mouse - Silver",
+    "rating": {
+      "stars": 4.5,
+      "count": 98
+    },
+    "priceCents": 1899,
+    "keywords": [
+      "electronics",
+      "mouse",
+      "computers",
+      "accessories"
+    ]
+  },
+  {
+    "id": "37a38b39c40-d41e42f43-g44h45i46j47k48",
+    "image": "https://m.media-amazon.com/images/I/81CqdCViQoL._AC_SL1500_.jpg",
+    "name": "Travel Backpack with USB Charging Port - Black",
+    "rating": {
+      "stars": 4,
+      "count": 176
+    },
+    "priceCents": 4299,
+    "keywords": [
+      "bags",
+      "backpacks",
+      "travel",
+      "accessories"
+    ]
+  },
+  {
+    "id": "49a50b51c52-d53e54f55-g56h57i58j59k60",
+    "image": "https://m.media-amazon.com/images/I/71U60K-9oVS._AC_SY741_.jpg",
+    "name": "Digital Wristwatch with Metal Strap - Silver",
+    "rating": {
+      "stars": 4.5,
+      "count": 123
+    },
+    "priceCents": 2599,
+    "keywords": [
+      "watches",
+      "accessories"
+    ]
+  },
+  {
+    "id": "61a62b63c64-d65e66f67-g68h69i70j71k72",
+    "image": "https://m.media-amazon.com/images/I/614AO333IYL._AC_SL1500_.jpg",
+    "name": "Fitness Resistance Bands Set - 5 Pieces",
+    "rating": {
+      "stars": 4,
+      "count": 215
+    },
+    "priceCents": 1499,
+    "keywords": [
+      "fitness",
+      "exercise",
+      "sports"
+    ]
+  },
+  {
+    "id": "109a110b111c112-d113e114f115-g116h117i118j119k120",
+    "image": "https://m.media-amazon.com/images/I/61Dxf0VCtVL._AC_SL1200_.jpg",
+    "name": "Adjustable Dumbbell Set - 2 Pieces",
+    "rating": {
+      "stars": 4.5,
+      "count": 319
+    },
+    "priceCents": 4999,
+    "keywords": [
+      "fitness",
+      "exercise",
+      "dumbbells"
+    ]
+  },
+  {
+    "id": "121a122b123c124-d125e126f127-g128h129i130j131k132",
+    "image": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/8c6fc87393e4369e574580cd259c1ae5.jpg?imageView2/2/w/500/q/70/format/webp",
+    "name": "Fashion Sunglasses - Tortoise",
+    "rating": {
+      "stars": 4,
+      "count": 76
+    },
+    "priceCents": 1890,
+    "keywords": [
+      "sunglasses",
+      "accessories",
+      "shades"
+    ]
+  },
+  {
+    "id": "133a134b135c136-d137e138f139-g140h141i142j143k144",
+    "image": "https://m.media-amazon.com/images/I/71wjmZa8vnL._AC_SL1500_.jpg",
+    "name": "Compact Blender with Travel Lid - Red",
+    "rating": {
+      "stars": 4.5,
+    "count": 145
+    },
+    "priceCents": 2999,
+    "keywords": [
+      "food blenders",
+      "kitchen",
+      "appliances"
+    ]
+  },
+  {
+    "id": "169a170b171c172-d173e174f175-g176h177i178j179k180",
+    "image": "https://m.media-amazon.com/images/I/81y+k1KMzwL._AC_SL1500_.jpg",
+    "name": "Large Gaming Mouse Pad - Anti-Slip",
+    "rating": {
+      "stars": 4.5,
+      "count": 134
+    },
+    "priceCents": 1499,
+    "keywords": [
+      "electronics",
+      "mouse pads",
+      "gaming",
+      "accessories"
+    ]
+  },
+  {
+    "id": "181a182b183c184-d185e186f187-g188h189i190j191k192",
+    "image": "https://m.media-amazon.com/images/I/61paHS9E1qL._AC_SL1500_.jpg",
+    "name": "Stainless Steel Travel Mug - 16oz, Silver",
+    "rating": {
+      "stars": 4,
+      "count": 267
+    },
+    "priceCents": 1899,
+    "keywords": [
+      "drinkware",
+      "mugs",
+      "travel"
+    ]
+  },
+  {
+    "id": "193a194b195c196-d197e198f199-g200h201i202j203k204",
+    "image": "https://m.media-amazon.com/images/I/81BY-XUmN2L._AC_SX342_.jpg",
+    "name": "Genuine Leather Belt - Brown",
+    "rating": {
+      "stars": 4.5,
+      "count": 189
+    },
+    "priceCents": 2499,
+    "keywords": [
+      "accessories",
+      "belts"
+    ]
+  },
+  {
+    "id": "205a206b207c208-d209e210f211-g212h213i214j215k216",
+    "image": "https://m.media-amazon.com/images/I/61IrFnA5y5L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "name": "Portable Phone Charger - 10000mAh",
+    "rating": {
+      "stars": 4.5,
+      "count": 301
+    },
+    "priceCents": 3499,
+    "keywords": [
+      "electronics",
+      "chargers",
+      "accessories"
+    ]
   }
 ];
