@@ -84,18 +84,25 @@ function addToCart() {
       const productId = button.dataset.productId;
 
       let matchingItem;
+      // Starting with the first item added 
+      let totalItems = 1;
 
       cart.forEach((item) => {
+        totalItems += item.quantity ;
+
         if (productId === item.productId) {
           matchingItem = item;
-        }
+        };
       });
+      
       if (matchingItem){
         matchingItem.quantity += 1;
       }else{
         cart.push({ productId, quantity: 1 });
       }
-      console.log(cart)
+      console.log(cart);
+      console.log("total ITEMS " + totalItems);
+      document.querySelector(".js-cart-quantity").innerHTML = totalItems;
     });
 
   });
