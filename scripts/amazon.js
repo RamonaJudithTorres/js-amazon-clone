@@ -1,20 +1,21 @@
 import { products } from "../data/products.js";
 import { getAddToCartButton } from "../data/cart.js";
+import { getPriceDollars } from "./utils.js";
 
 var ratingStars = 0;
-var priceDollars = 0;
+
+// document.addEventListener('DOMContentLoaded', function () {
+//   renderProducts(); // Call your function here
+// });
 
 renderProducts();
-
-function renderProducts() {
+export function renderProducts() {
   let productsHTML = "";
 
   products.forEach((product) => {
     ratingStars = product.rating.stars * 10;
-    priceDollars = product.priceCents / 100;
-    const html = `
 
-   
+    const html = `
     <div class="product-container">
    
 
@@ -36,7 +37,7 @@ function renderProducts() {
     </div>
 
     <div class="product-price">
-      $${priceDollars.toFixed(2)} 
+      $${getPriceDollars(product.priceCents)} 
     </div>
 
     <div class="product-quantity-container">
@@ -76,5 +77,5 @@ function renderProducts() {
   document.querySelector(".js-products-grid").innerHTML = productsHTML;
 }
 
-getAddToCartButton()
+getAddToCartButton();
 

@@ -854,3 +854,16 @@ export const products = [
     ]
   }
 ];
+
+
+export function getProductById(id) {
+  console.log(id)
+  const product = products.find(item => item.id === id);
+
+  if (product) {
+    var { image, name, priceCents } = product;
+    return { image, name, priceCents  };
+  } else {
+    return null; // If the id is not found, you can handle it accordingly.
+  }
+}
