@@ -1,5 +1,6 @@
-export var cart = JSON.parse(localStorage.getItem("cart"));
+import { deliveryOptions } from "../scripts/utils.js";
 
+export var cart = JSON.parse(localStorage.getItem("cart"));
 
 var addToCartButtons = [];
 
@@ -20,6 +21,9 @@ export function saveToStorage(){
 }
 
 function addToCart(productId) {
+  if (cart === null) {
+    cart = [];
+  }
   let matchingItem;
   // Starting with the first item added
   let totalItems = 1;
@@ -43,7 +47,6 @@ function addToCart(productId) {
 
 
 export function deleteFromCart(productId) {
-  // console.log(productId);
   const newCart= [];
 
   cart.forEach((cartItem)=>{
@@ -54,4 +57,20 @@ export function deleteFromCart(productId) {
   cart = newCart;
   console.log(cart);
   saveToStorage()
+}
+
+
+export function getdeliveryOptionById(id) {
+  console.log("llamando getdeliveryOptionById con el ID: "+ id)
+  const option = deliveryOptions.find(option => option.id === id);
+  console.log(option)
+  
+
+  if (option) {
+    var { deliveryTime, deliveryPrice} = option;
+    return {deliveryTime, deliveryPrice };
+  } else {
+    console.log("The given id did not return an option")
+    return null; 
+  }
 }

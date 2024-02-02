@@ -4,10 +4,6 @@ import { getPriceDollars } from "./utils.js";
 
 var ratingStars = 0;
 
-// document.addEventListener('DOMContentLoaded', function () {
-//   renderProducts(); // Call your function here
-// });
-
 renderProducts();
 export function renderProducts() {
   let productsHTML = "";
